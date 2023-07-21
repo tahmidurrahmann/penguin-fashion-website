@@ -13,17 +13,24 @@
         .font-roboto{
         font-family: 'Roboto', sans-serif;
         }
+        *{
+            margin: 0;
+            padding: 0;
+        }
         </style>
 </head>
 <body>
     <header class="bg-[#FFFBF0]">
         <nav class="max-w-screen-xl mx-auto">
-            <div class="flex justify-around items-center">
-                <div>
-                    
+            <div class="flex flex-col lg:flex-row justify-between items-center pt-11">
+                <div class="w-3/5 md:w-2/5 lg:w-1/5">
+                    <img src="images/icons/logo.png" alt="">
                 </div>
-                <div>
-                    
+                <div class="flex flex-col md:flex-row justify-between md:justify-around items-center w-1/2 gap-4 md:gap-0 md:w-4/5 lg:w-1/2 mt-4 lg:mt-0 ">
+                    <a class="text-[#3C3C3C] font-roboto text-lg font-medium"  href="">Home</a>
+                    <a class="text-[#3C3C3C] font-roboto text-lg font-medium" href="">Product</a>
+                    <a class="text-[#3C3C3C] font-roboto text-lg font-medium" href="">About Us</a>
+                    <a class="text-[#3C3C3C] font-roboto text-lg font-medium" href="">Contact Us</a>
                 </div>
             </div>
         </nav>
